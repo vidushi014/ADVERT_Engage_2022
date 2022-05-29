@@ -1,0 +1,21 @@
+.adModalMain {
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 1vw;
+  overflow-x: hidden;
+  background-color: #f6f6f6;
+}
+
+.adPlayerMain {
+  box-sizing: border-box;
+  position: absolute;
+  left: 20vw;
+  top: 20vh;
+  width: 60vw;
+  height: 60vh;
+  outline: none;
+}
+
+.adPlayerMain:focus{
+  outline: none;
+}

@@ -1,0 +1,91 @@
+.adminMain {
+  width: 86vw;
+  box-sizing: border-box;
+  margin: 0;
+  margin-left: 12vw;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+}
+
+.Heading{
+    font-weight: bold;
+    font-size: 34px;
+    margin: 1vh 20px 0px 20px;
+    color: black;
+}
+
+.Para {
+  font-weight: 500;
+  font-size: 22px;
+  margin: 1vh 20px 0px 20px;
+}
+
+.IntroBlock {
+  padding: 20px;
+  height: 26vh;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  overflow-y: hidden;
+}
+.ScrollbarDiv{
+  overflow-y: scroll;
+  white-space: no-wrap ;
+}
+
+.ScrollbarDiv::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.ScrollbarDiv::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.ScrollbarDiv::-webkit-scrollbar-thumb {
+  background:rgb(173, 170, 170); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.ScrollbarDiv::-webkit-scrollbar-thumb:hover {
+  background: #b7b7b7; 
+}
+
+@media screen and (max-width: 1600px) {
+   .Heading{
+     font-size:24px ;
+   }
+   .Para{
+     font-size:20px ;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+  .Heading{
+    font-size:20px ;
+  }
+  .Para{
+    font-size:16px ;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Heading{
+    font-size:18px ;
+  }
+  .Para{
+    font-size:14px ;
+  }
+}
+@media screen and (max-width: 700px) {
+  .Heading{
+    font-size:16px ;
+  }
+  .Para{
+    font-size:12px ;
+  }
+}
+

@@ -1,0 +1,52 @@
+.AdsStatsHeading{
+font-weight: bold;
+font-size: 34px;
+margin: 15px 20px 0px 20px;
+}
+.AdsStatsPara{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 15px 20px 0px 20px;
+}
+@media screen and (max-width: 1600px) {
+    .AdsStatsHeading{
+      font-size:22px ;
+    }
+    .AdsStatsPara{
+      font-size:16px ;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+   .AdsStatsHeading{
+     font-size:18px ;
+   }
+   .AdsStatsPara{
+     font-size:12px ;
+   }
+  }
+  @media screen and (max-width: 1000px) {
+   .AdsStatsHeading{
+     font-size:16px ;
+   }
+   .AdsStatsPara{
+     font-size:10px ;
+   }
+  }
+  @media screen and (max-width: 700px) {
+   .AdsStatsHeading{
+     font-size:14px ;
+   }
+   .AdsStatsPara{
+     font-size:10px ;
+   }
+  }
+  @media screen and (max-width: 500px) {
+    .AdsStatsHeading{
+      font-size:12px ;
+    }
+    .AdsStatsPara{
+      font-size:8px ;
+    }
+   }
+   
