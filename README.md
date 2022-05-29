@@ -28,7 +28,7 @@ For more details refer to [Project Documentation](https://docs.microsoft.com/en-
 In the project directory, run `npm install` to install all the dependencis. then run `npm start` to run the application on localhost. Use `npm run build` to create a production build (in **\build** folder) for deployment.
 ### Dependencies
 ADVERT runs on **Node js** and uses **React JS** for front end and
-Following the dependencies used by Shop24x7 :
+Following the dependencies used by ADVERT :
 - @emotion/react
 - @emotion/styled
 - @mui/icons-material
