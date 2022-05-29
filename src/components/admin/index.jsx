@@ -116,6 +116,7 @@ const Admin = ({ setNavActive, userData }) => {
             startIcon={<ArrowBackIosIcon />}
             onClick={() => {
               navigate("/Home");
+              navigate("/");
               setNavActive("Homepage");
             }}
           >

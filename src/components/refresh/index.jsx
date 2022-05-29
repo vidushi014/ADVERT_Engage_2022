@@ -18,6 +18,7 @@ const Refresh = ({ setNavActive }) => {
       <Btn
         onClick={() => {
           navigate("/Home");
+          navigate("/");
           setNavActive("Homepage");
         }}
       >

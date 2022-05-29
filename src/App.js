@@ -41,6 +41,15 @@ function App() {
             }
           />
           <Route
+            path="/"
+            element={
+              <>
+                <AdsDashboard userData={userData} setUserData={setUserData} />
+                <Navbar setUserData={setUserData} active={navActive} setNavActive={setNavActive} />
+              </>
+            }
+          />
+          <Route
             path="/Refresh"
             element={
               <>

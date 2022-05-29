@@ -47,6 +47,7 @@ export const Blog = ({ setNavActive, userData }) => {
             style={{ cursor: "pointer" }}
             onClick={() => {
               navigate("/Home");
+              navigate("/");
               setNavActive("Homepage");
             }}
           >
