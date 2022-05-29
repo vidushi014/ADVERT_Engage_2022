@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div style={{ width: "100%", boxSizing: "border-box" }}>
-      <BrowserRouter basename="/React">
+      <BrowserRouter>
         <Routes>
           <Route
             path="/Admin"
