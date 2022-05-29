@@ -1,0 +1,11 @@
+.refreshMain {
+  box-sizing: border-box;
+  width: 88vw;
+  height: 100vh;
+  margin: 0;
+  margin-left: 12vw;
+  padding: 1vw;
+  overflow-x: hidden;
+  background-color: #f6f6f6;
+  text-align: center;
+}

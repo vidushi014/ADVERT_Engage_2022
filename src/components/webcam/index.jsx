@@ -112,17 +112,17 @@ export const WebcamCapture = ({ open, setOpen, userData, setUserData }) => {
         </div>
         <div>
           {faceData.length === 0 ? (
-            <div>No Face Detected</div>
+            <div style={{ color:"white" }}>No Face Detected</div>
           ) : (
-            <div>Face Detected</div>
+            <div >Face Detected</div>
           )}
         </div>
         <div className="faceResults">
-          <div styles={{ border: "1px solid black", width: "50%" }}>
+          <div style={{ color:"white" }}>
             {faceData == "" ? faceData : faceData.faceAttributes.gender}
           </div>
           {/* <div>{faceData==""?faceData:faceData.faceAttributes.emotion}</div> */}
-          <div>{faceData == "" ? faceData : faceData.faceAttributes.age}</div>
+          <div style={{color:"white" }}>{faceData == "" ? faceData : faceData.faceAttributes.age}</div>
         </div>
         {/* <div>{console.log(faceData)}</div> */}
       </div>

@@ -2,22 +2,30 @@ import React, { useState } from "react";
 import { useNavigate, useHistory } from "react-router-dom";
 import "./style.css";
 
+import { WebcamComponent } from "../../components/webcam";
+
 import homeSVG from "../../assets/home.svg";
 import adminSVG from "../../assets/admin.svg";
 import refreshSVG from "../../assets/refresh.svg";
 import recordSVG from "../../assets/record.svg";
 import dummyImg from "../../assets/dummy.png";
 
-const Navbar = ({ active, setNavActive }) => {
+const Navbar = ({ active, setNavActive, setUserData }) => {
   const navigate = useNavigate();
   const navItems = [
     { key: "Homepage", icon: homeSVG, url: "/Home" },
     { key: "Admin Dashboard", icon: adminSVG, url: "/Admin" },
-    { key: "Refresh", icon: refreshSVG, url: "/Refresh" },
     { key: "Record", icon: recordSVG, url: "/Blog" },
+    { key: "Refresh", icon: refreshSVG, url: "/Refresh" },
   ];
 
   const navClickHandler = (item) => {
+    if(item.key==="Refresh"){
+      navigate("/Refresh")
+      setNavActive("Refresh")
+      setUserData([]);
+      return;
+    }
     navigate(item.url);
     setNavActive(item.key);
   };

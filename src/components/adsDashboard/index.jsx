@@ -35,7 +35,7 @@ const AdsDashboard = ({userData, setUserData}) => {
   };
 
   useEffect(() => {
-    if(userModal===false){
+    if(userModal===false && Object.keys(userData).length>0){
       let emotion="";
       let val=0;
       for(const key in userData.faceAttributes.emotion){

@@ -218,3 +218,9 @@ p{
         
     }
 }
+.webcam-container:focus-visible{
+    outline: none;
+}
+.webcam-container{
+    margin-top: 150px;
+}
